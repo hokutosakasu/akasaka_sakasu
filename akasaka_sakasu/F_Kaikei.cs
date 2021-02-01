@@ -21,7 +21,7 @@ namespace akasaka_sakasu
         {
             MessageBox.Show("hellooo");
             MessageBox.Show("hellootest");
-
+            MessageBox.Show("hellootest210201テスト");
         }
     }
 }
