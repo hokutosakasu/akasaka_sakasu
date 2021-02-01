@@ -21,7 +21,8 @@ namespace akasaka_sakasu
         {
             MessageBox.Show("hellooo");
             MessageBox.Show("hellootest");
-
+            MessageBox.Show("hellootest");
+            MessageBox.Show("hellootestブランチ");
         }
     }
 }
