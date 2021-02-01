@@ -26,6 +26,7 @@ namespace akasaka_sakasu
         private void F_Kaikei_Load(object sender, EventArgs e)
         {
             
+
         }
 
         #region ボタン動作
@@ -35,7 +36,7 @@ namespace akasaka_sakasu
             //テキストボックスに押す前の値+押したボタンの値を加える
             //関数可したい
             //Txt_1.Text = StrKekka + "1";
-           // StrKekka = Txt_1.Text;
+            // StrKekka = Txt_1.Text;
             Btnkeisan("1");
         }
 
@@ -103,6 +104,7 @@ namespace akasaka_sakasu
             Txt_1.Text = StrKekka + strKeisan;
             StrKekka = Txt_1.Text;
 
+         
         }
 
         #endregion
