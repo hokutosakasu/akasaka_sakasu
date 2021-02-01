@@ -20,7 +20,8 @@ namespace akasaka_sakasu
         private void F_Kaikei_Load(object sender, EventArgs e)
         {
             MessageBox.Show("hellooo");
-               
+            MessageBox.Show("hellootest");
+
         }
     }
 }
