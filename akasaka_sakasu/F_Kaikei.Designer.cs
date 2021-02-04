@@ -41,7 +41,7 @@
             this.Btn_9 = new System.Windows.Forms.Button();
             this.Btn_00 = new System.Windows.Forms.Button();
             this.Btn_0 = new System.Windows.Forms.Button();
-            this.Btn_Kekka = new System.Windows.Forms.Button();
+            this.Btn_Enter = new System.Windows.Forms.Button();
             this.Btn_clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,11 +57,11 @@
             // Lbl_1
             // 
             this.Lbl_1.AutoSize = true;
-            this.Lbl_1.Location = new System.Drawing.Point(347, 46);
+            this.Lbl_1.Location = new System.Drawing.Point(132, 23);
             this.Lbl_1.Name = "Lbl_1";
-            this.Lbl_1.Size = new System.Drawing.Size(35, 12);
+            this.Lbl_1.Size = new System.Drawing.Size(29, 12);
             this.Lbl_1.TabIndex = 1;
-            this.Lbl_1.Text = "label1";
+            this.Lbl_1.Text = "結果";
             // 
             // Btn_1
             // 
@@ -173,14 +173,15 @@
             this.Btn_0.UseVisualStyleBackColor = true;
             this.Btn_0.Click += new System.EventHandler(this.Btn_0_Click_1);
             // 
-            // Btn_Kekka
+            // Btn_Enter
             // 
-            this.Btn_Kekka.Location = new System.Drawing.Point(464, 89);
-            this.Btn_Kekka.Name = "Btn_Kekka";
-            this.Btn_Kekka.Size = new System.Drawing.Size(64, 43);
-            this.Btn_Kekka.TabIndex = 13;
-            this.Btn_Kekka.Text = "計算";
-            this.Btn_Kekka.UseVisualStyleBackColor = true;
+            this.Btn_Enter.Location = new System.Drawing.Point(464, 89);
+            this.Btn_Enter.Name = "Btn_Enter";
+            this.Btn_Enter.Size = new System.Drawing.Size(64, 43);
+            this.Btn_Enter.TabIndex = 13;
+            this.Btn_Enter.Text = "入力";
+            this.Btn_Enter.UseVisualStyleBackColor = true;
+            this.Btn_Enter.Click += new System.EventHandler(this.Btn_Enter_Click);
             // 
             // Btn_clear
             // 
@@ -196,7 +197,7 @@
             // 
             this.ClientSize = new System.Drawing.Size(628, 549);
             this.Controls.Add(this.Btn_clear);
-            this.Controls.Add(this.Btn_Kekka);
+            this.Controls.Add(this.Btn_Enter);
             this.Controls.Add(this.Btn_00);
             this.Controls.Add(this.Btn_0);
             this.Controls.Add(this.Btn_9);
@@ -232,7 +233,7 @@
         private System.Windows.Forms.Button Btn_9;
         private System.Windows.Forms.Button Btn_00;
         private System.Windows.Forms.Button Btn_0;
-        private System.Windows.Forms.Button Btn_Kekka;
+        private System.Windows.Forms.Button Btn_Enter;
         private System.Windows.Forms.Button Btn_clear;
     }
 }
