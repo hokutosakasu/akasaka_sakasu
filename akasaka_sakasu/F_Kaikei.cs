@@ -28,6 +28,7 @@ namespace akasaka_sakasu
         {
             //テキストボックス初期値0
             Txt_1.Text = "0";
+            //210204-2
         }
 
         #region ボタン動作
